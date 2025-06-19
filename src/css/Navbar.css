@@ -1,10 +1,15 @@
 .navbar {
-  background-color: #000000;
+  background-color: #0b0000;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand a {
+  text-decoration: none;
+  color: #980a0a;
 }
 
 .navbar-brand {
@@ -15,6 +20,11 @@
 .navbar-links {
   display: flex;
   gap: 2rem;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #980a0a;
 }
 
 .nav-link {
